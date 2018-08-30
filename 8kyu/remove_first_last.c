@@ -16,3 +16,17 @@ char *remove_char(char* dst, const char* src) {
     return dst;
 }
 */
+
+
+/*
+char* remove_char(char* dst, const char* src)
+{
+ int i=0,k=0;
+ for(i=1;i<(strlen(src)-1);i++)
+ {
+   dst[k++]=src[i];
+ }
+ dst[k]='\0';
+ return dst;
+}
+*/
